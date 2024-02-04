@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    height: 100vh;
+    width: 100;
+
+    background-color: beige;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#principal{
+margin: 0;
+padding: 0;
+
+height: 100vh;
+width: 100vw;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+#container {
+
+    height: 98%;
+    width: 98%;
+
+    background-color: grey;
+    border-radius: 0.4em;
+
+    border: 0.2em solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pantalla {
+
+    height: 45em;
+    width: 80em;
+    margin-left: 6em;
+
+    border-radius: 0.4em;
+}
+
+.pantallaBasica {
+
+    background-color: black;
+
+    height: 24em;
+    width: 39em;
+}
+
+#remote {
+
+    height: 25em;
+    width: 10em;
+    margin-right: 6em;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    border-radius: 0.5;
+
+    background-color: green;
+    margin-left: 15em;
+}
+
+.boton {
+
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+
+    background-color: red;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.boton:hover{
+transition:0.2s;
+background-color: darkred;
+}
+
+.canal1 {
+    background-color: aqua;
+}
+
+.canal2 {
+background-color: purple;
+}
+
+.canal3 {
+background-color: greenyellow;
+}
+
+.canal4 {
+    background-color: goldenrod;
+}
+
+.canal5 {
+    background-color: brown;
+}
+
+.canal6{
+    background-color: azure;
+}
+
+
+.canal7{
+background-color: blue;
+}
+
+
+.canal8{
+background-color: blanchedalmond;
+}
+
+.canal9{
+    background-color: cadetblue;
+}
+
+
+/* #onOff{
+    background-color: yellow;
+}
+
+#encender{
+display:flex;} */
