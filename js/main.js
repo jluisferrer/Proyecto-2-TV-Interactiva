@@ -1,4 +1,4 @@
-const botones = document.getElementsByClassName("boton")
+const botones = document.getElementsByClassName("boton1")
 
 let arrayBotones = Array.from(botones)
 
