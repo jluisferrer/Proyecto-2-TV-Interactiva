@@ -5,8 +5,8 @@
 *[Stack](#Stack)<br>
 *[Features](#Features)<br>
 *[Imagenes del proyecto](#Imágenes-del-proyecto)<br>
-*[Roadmap](#Roadmap)
-*[Autor](#Autor)<br>
+*[Roadmap](#Roadmap)<br>
+*[Autor](#Autor)
 
 
 
