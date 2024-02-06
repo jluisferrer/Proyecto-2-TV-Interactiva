@@ -21,7 +21,7 @@ arrayBotones.map(item => { //se utiliza el método map para iterar sobre cada el
     item.addEventListener("click", (evento) => { //Se agrega un event listener a cada botón, cuando "click", se ejecutará 
         if (powerOn) { //si powerOn es 'true'
             const pantalla = document.getElementById('pantalla'); //se obtiene el elemento con el id "pantalla" y se almacena en la variable pantalla.
-            pantalla.innerHTML = `<img id="tv-on-image" src="./img/canal${evento.target.id.slice(-1)}.jpg" alt="Canal ${evento.target.id.slice(-1)}">`; //se actualiza el contenido HTMl del elemento"pantalla" para insertar imagen desde su ruta seguido del último caracter del id del boton que desencadena el evento, también extrae el último carácter del boton que se hizo click
+            pantalla.innerHTML = `<img id="tv-on-image" src="./img/canal${evento.target.id.slice(-1)}.jpg" alt="Canal ${evento.target.id.slice(-1)}">`; //se actualiza el contenido HTMl del elemento"pantalla" para insertar imagen desde su ruta seguido del último caracter del id del boton que desencadena el evento, también extrae el último carácter del boton que se hizo click, sino funciona se muestra nombre y numero del canal
         
              // Mostrar información del canal, hora y fecha durante 3 segundos
         const infoPantalla = document.createElement('div');
@@ -39,7 +39,7 @@ arrayBotones.map(item => { //se utiliza el método map para iterar sobre cada el
 
 function getFormattedTime() { //obtiene hora del sistema, 
     const now = new Date(); //crea objeto de fecha
-    const hours = now.getHours().toString().padStart(2, '0'); //obtiene las horas delobjeto de fecha
+    const hours = now.getHours().toString().padStart(2, '0'); //obtiene las horas del objeto de fecha
     const minutes = now.getMinutes().toString().padStart(2, '0'); //obtiene los minutos del objeto de fecha convierte las horas y los minutos en cadenas y agrega un cero al principio si la longitud de la cadena es menor que 2 (asegurando dos dígitos para horas y minutos).
     return `${hours}:${minutes}`;
 }
@@ -75,18 +75,5 @@ function getFormattedDate() {   //obtiene hora del sistema
 
 
 
-
-// const botones = document.getElementsByClassName("boton1")
-
-// let arrayBotones = Array.from(botones)
-
-// arrayBotones.map(
-//     item => {
-//         item.addEventListener("click", (evento) => {
-//             pantalla.classList.remove(pantalla.classList[pantalla.classList.length - 1])
-//             pantalla.classList.add("canal" + evento.target.id.slice(-1))
-//         })
-//     }
-// )
 
 

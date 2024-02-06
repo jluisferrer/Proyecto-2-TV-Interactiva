@@ -21,7 +21,7 @@ body {
     position: relative;
     border-radius: 2em;
     margin-right: 4em;
-    border: 1em solid #493a3a;
+    border: 1em solid hsl(0, 11%, 26%);
     overflow: hidden;
 }
 
@@ -98,6 +98,11 @@ body {
     margin-left: 0.5em;
 }
 
+#volumen {
+    display: flex;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+}
 
 /* Elemento info-pantalla */
 .info-pantalla {
@@ -128,39 +133,3 @@ body {
 
 
 
-.canal1 {
-    background-image: url("../img/canal1.jpg");
-}
-
-.canal2 {
-    background-image: url("../img/canal2.jpg");
-}
-
-.canal3 {
-    background-image: url("../img/canal3.jpg");
-}
-
-.canal4 {
-    background-image: url("../img/canal4.jpg");
-}
-
-.canal5 {
-    background-image: url("../img/canal5.jpg");
-}
-
-.canal6 {
-    background-image: url("../img/canal6.jpg");
-}
-
-.canal7 {
-    background-image: url("../img/canal7.jpg");
-}
-
-.canal8 {
-    background-image: url("../img/canal8.jpg");
-}
-
-.canal9 {
-    background-image: url("../img/canal9.jpg");
-    
-}
