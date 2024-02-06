@@ -14,7 +14,7 @@
 <h2>Tecnologías utilizadas :heavy_check_mark:</h2><br>
 
 -HTML<br>
--CSS
+-CSS<br>
 -Javascript
 
 <h2>Features 👀</h2>
