@@ -19,8 +19,8 @@
 
 <h2>Features 👀</h2>
 <p>Este es mi segundo proyecto en la academia GeekHubs.</p>
-<p>El proyecto de esta Tv-interactiva consta de una pantalla con un control remoto que permite interactuar con ella, cambiando las imagenes entre 9 canales distintos, además muestra una descripción del canal fecha y hora actualizadas</p><br>
-<p></p>
+<p>El proyecto de esta Tv-interactiva consta de una pantalla con un control remoto que permite interactuar con ella, cambiando las imagenes entre 9 canales distintos, además muestra una descripción del canal fecha y hora actualizadas, en este proyecto he tenido dificultades para poder entender bien como hacer que la tele detectara y solo cambiará de canal cuando estuviera encendida, para ello he estado buscando y estudiando varios métodos hasta que descubrí que el "innerHTML2 era el mas adecuado junto con if else para que detectará el encendido entonces pusiera la imagen de tv on y a partir de ahi dejará cambiar los canales, para mostrar el nombre del canal, la fecha y la hora local tuve que buscar como usar el objeto "Date"y como darle formato a este, tambien agregue "eltoLocaleDateString es-Es" para que actualizará a la hora local</p><br>
+</p>
 
 
 
@@ -40,3 +40,4 @@
 
 <h2>Autor ✏️</h2>
 - Jose Luis Ferrer
+
