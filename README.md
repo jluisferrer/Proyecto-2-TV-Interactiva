@@ -42,7 +42,7 @@
 5. Agregando funciones informacion de canal hora, fecha y dandole formato.
 6. Limpiando código y añadiendo divs volumen
 7. Corrigiendo errores código, añadiendo imágen portada y modificando elementos.
-8. 
+8. Agregando diseño base de la pantalla y organizando comentarios
 
 <h2>Autor ✏️</h2>
 - Jose Luis Ferrer
