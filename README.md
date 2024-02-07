@@ -31,6 +31,11 @@
 ![2024-02-07 15_43_40-Window](https://github.com/jluisferrer/Proyecto-2/assets/157707370/923a3012-5c39-46d9-bbf9-4e75e3e2afb1)
 
 
+![2024-02-07 15_40_14-Window](https://github.com/jluisferrer/Proyecto-2/assets/157707370/2c02271c-b5c2-4698-bdbd-18853ba129c5)
+![2024-02-07 15_41_51-Window](https://github.com/jluisferrer/Proyecto-2/assets/157707370/b7c71a8e-dd8d-44a0-8db1-6e28f7f930a8)
+![2024-02-07 15_43_40-Window](https://github.com/jluisferrer/Proyecto-2/assets/157707370/923a3012-5c39-46d9-bbf9-4e75e3e2afb1)
+
+
 <h2>Roadmap 🛠️</h2>
 
 1. Diseño primario con cambio de background.
@@ -40,6 +45,8 @@
 5. Agregando funciones informacion de canal hora, fecha y dandole formato.
 6. Limpiando código y añadiendo divs volumen
 7. Corrigiendo errores código, añadiendo imágen portada y modificando elementos.
+8. Agregando diseño base de la pantalla y organizando comentarios
 
 <h2>Autor ✏️</h2>
 - Jose Luis Ferrer
+
