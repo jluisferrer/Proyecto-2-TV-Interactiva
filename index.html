@@ -10,43 +10,46 @@
 
 <body>
     <div class="container">
-        <div class= "principal">
-        <div id="pantalla">
-            <img id="tv-off-image" src="./img/tv-off.png" alt="Televisión apagada">
-            <div id="tv-on-container" style="display: none;">
-                <img id="tv-on-image" src="./img/tv-on.png" alt="Televisión encendida">
+        <div class="principal">
+            <div id="pantalla">
+                <img id="tv-off-image" src="./img/tv-off.png" alt="Televisión apagada">
+                <div id="tv-on-container" style="display: none;">
+                    <img id="tv-on-image" src="./img/tv-on.png" alt="Televisión encendida">
+                </div>
+
+                <!-- Contenido dentro del div pantalla -->
             </div>
-           
-            <!-- Contenido dentro del div pantalla -->
+
+            <div id="remote">
+                <div id="onOff" class="boton" onclick="encendido()">0</div>
+                <div id="fila1">
+                    <div id="c1" class="boton1">1</div>
+                    <div id="c2" class="boton1">2</div>
+                    <div id="c3" class="boton1">3</div>
+                </div>
+                <div id="fila2">
+                    <div id="c4" class="boton1">4</div>
+                    <div id="c5" class="boton1">5</div>
+                    <div id="c6" class="boton1">6</div>
+                </div>
+                <div id="fila3">
+                    <div id="c7" class="boton1">7</div>
+                    <div id="c8" class="boton1">8</div>
+                    <div id="c9" class="boton1">9</div>
+                </div>
+                <div id="volumen">
+                    <div id="+" class="boton1">Vol+</div>
+                    <div id="-" class="boton1">Vol-</div>
+                </div>
+            </div>
         </div>
-        
-        <div id="remote">
-            <div id="onOff" class="boton" onclick="encendido()">0</div>
-            <div id="fila1">
-                <div id="c1" class="boton1">1</div>
-                <div id="c2" class="boton1">2</div>
-                <div id="c3" class="boton1">3</div>
-            </div>
-            <div id="fila2">
-                <div id="c4" class="boton1">4</div>
-                <div id="c5" class="boton1">5</div>
-                <div id="c6" class="boton1">6</div>
-            </div>
-            <div id="fila3">
-                <div id="c7" class="boton1">7</div>
-                <div id="c8" class="boton1">8</div>
-                <div id="c9" class="boton1">9</div>
-            </div>
-            <div id="volumen">
-                <div id="+" class="boton1">Vol+</div>
-                <div id="-" class="boton1">Vol-</div>
-            </div>
-            </div>
-        </div>
-       <div id="linea2"><div id="base"></div><div id="base2"></div></div> <!-- Nuevo div para la base del televisor -->
-        </div>
-        
+        <div id="lineaBase">
+            <div id="base"></div>
+            <div id="base2"></div>
+        </div> <!-- Nuevo div para la base del televisor -->
     </div>
+
+
     <script src="./js/main.js"></script>
 </body>
 
