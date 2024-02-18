@@ -1,4 +1,4 @@
-<h1 align="center">Tv-interactiva </h1>
+<h1 align="center">Tv-Interactiva </h1>
 
 
 *[Tv-interactiva](#Título-e-imagen-de-portada)<br>
